@@ -279,7 +279,7 @@ function UILibrary.Load(GUITitle)
 
 	TitleButton.MouseButton1Down:Connect(function()
 		
-		ContainerFrame.Position = UDim2.new(mouse.X, mouse.Y)
+		ContainerFrame.Position = UDim2.new(0, mouse.X, 0, mouse.Y)
 		
 	end)
 	
